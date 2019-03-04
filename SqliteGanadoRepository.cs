@@ -7,10 +7,10 @@ using System.Linq;
 
 namespace Ejemplo{
 
-    public class SqliteEmpleadosRepository{
+    public class SqliteGanadoRepository{
         private string constrc;
 
-        public SqliteEmpleadosRepository(string v)
+        public SqliteGanadoRepository(string v)
         {
             this.constrc = v;
         }

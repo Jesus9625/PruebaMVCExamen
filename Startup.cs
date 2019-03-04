@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using s102parcial1ingweb.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Ejemplo;
 
 namespace s102parcial1ingweb
 {
