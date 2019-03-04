@@ -43,6 +43,8 @@ namespace s102parcial1ingweb
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            SqliteGanadoRepository.InitDatabase("DataSource=app.db");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
